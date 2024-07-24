@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  type="text/css" rel="stylesheet" href="css/soapOpera.css" />
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    	<script type="text/javascript" src="js/soapOpera.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/templet.css"/>
+		<link rel="stylesheet" href="css/footer&cbl.css" />
+		<link rel="stylesheet" href="css/daohang.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>		
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<script type="text/javascript" src="js/hp.js"></script>
+		<script type="text/javascript" src="js/templet.js"></script>
+
+    <title>电视剧</title>
+</head>
+<body>
+    <div id="main">
+    <header  data-spy="affix" data-offset-top="70">
+        <nav class="navbar-inverse" id="daohang">
+            <div class="daohang">
+                <div class="navbar-header clearfix">
+                    <button type="button" class="zd" id="zd" >
+                        <span class="glyphicon glyphicon-align-justify"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand"><img src="img/YOLO1.png"/></a>
+                </div>
+                <div class="collapse navbar-collapse" id="daohangtiao">
+                    <ul class="nav navbar-nav" id="navbar-nav">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="soapOpera.html">电视剧</a></li>
+                        <li><a href="setmeal.html">电影</a></li>
+                        <li><a href="example.html">动漫</a></li>
+                        <li class="wd1"><a href="">文档</a>
+                            <ul class="wd2 clearfix">
+                                <li class="pull-left " style="width: 233px;">
+                                    <p><a href="#" class="a1">教程中心</a></p>
+                                    <ul class="ul1 pull-left">
+                                        <li><a href="#">快速入门</a></li>
+                                        <li><a href="#">绑定域名</a></li>
+                                        <li><a href="#">网页设计</a></li>
+                                    </ul>
+                                    <ul class="ul2 pull-left">
+                                        <li><a href="#">SEO相关</a></li>
+                                        <li><a href="#">网站备案</a></li>
+                                        <li><a href="#">商城在线</a></li>							
+                                    </ul>
+                                </li>
+                                <li class="pull-left clearfix" style="width: 219px;">
+                                    <p><a href="#" class="a1">版本更新日志</a></p>
+                                    <ul class="ul1"> 
+                                        <li><a href="#" title="系统升级日志：V4.52">系统升级日志：V4.52</a></li>
+                                        <li><a href="#" title="系统升级日志：V4.50 & V4.51">系统升级日志：V4.50 ...</a></li>
+                                        <li><a href="#" title="系统升级日志：V4.49">系统升级日志：V4.49</a></li>
+                                        <li><a href="#" title="系统升级日志：V4.48">系统升级日志：V4.48</a></li>
+                                    </ul>										
+                                </li>
+                                <li class="pull-left clearfix" style="width: 479px;">
+                                    <p><a href="#" class="a1">建站资讯</a></p>
+                                    <ul class="ul1">
+                                        <li><a href="#" title="2017年响应式网站设计中字体排版的新趋势">2017年响应式网站设计中字...</a></li>
+                                        <li><a href="#" title="如何提高网站的设计感？巧妙的几何图案是个捷径">如何提高网站的设计感？巧妙的...</a></li>
+                                        <li><a href="#" title="什么是响应式网页布局? 给你五个最经典的例子">什么是响应式网页布局? 给你...</a></li>
+                                        <li><a href="#" title="干货分享: 几何设计学原理の黄金分割在网页设计中应用">干货分享: 几何设计学原理の...</a></li>
+                                    </ul>										
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="gy1"><a href="">关于</a>
+                            <ul class="gy2 clearfix">
+                                <li class="pull-left clearfix" style="width: 130px;">
+                                    <p><a href="#" class="a1">公司介绍</a></p>
+                                    <ul class="ul1">
+                                        <li><a href="#">公司介绍</a></li>
+                                        <li><a href="#">服务条款</a></li>
+                                        <li><a href="#">法律声明</a></li>
+                                        <li><a href="#">可接受服务</a></li>
+                                        <li><a href="#">免责声明</a></li>
+                                    </ul>										
+                                </li>
+                                <li class="pull-left clearfix" style="width: 330px;">
+                                    <p><a href="#" class="a1">团队成员</a></p>
+                                    <ul id="team">
+                                        <li>边凯伦</li>
+                                        <li>曾繁翔</li>
+                                        <li>李奕慧歆</li>
+                                        <li>陈果</li>
+                                    </ul>
+                                </li>
+                                <li class="lianxi pull-left clearfix" style="width: 478px;">
+                                    <p><a href="#" class="a1">联系客服</a></p>
+                                    <ul class="col-lg-12 col-md-12">
+                                        <li><a href="#" class="aa1">客户服务热线</a></li>
+                                        <li><a href="#" class="aa2">4006-285-729</a></li>
+                                        <li><a href="#" class="aa1">QQ客户中心</a></li>
+                                        <li><a href="#" class="aa2">800088546</a></li>
+                                        <li><a href="#" class="aa1">公司地址</a></li>
+                                        <li><a href="#" class="aa2">苏州市工业园区加成大厦F4-D2</a></li>
+                                    </ul>										
+                                </li>
+                            </ul>
+                        </li>
+                            
+                    </ul>
+                    <ul class="zcdl nav navbar-nav pull-right">
+                        <li><a href="login.html">登录</a></li>
+                        <li><a href="register.html">注册</a></li>
+                    </ul>
+                </div>					
+            </div>
+            <div id="box">
+                <div class="box1 col-sm-2 col-xs-2">
+                    <span id="X" class="glyphicon glyphicon-remove pull-right" ></span>
+                </div>
+                <div class="box2 col-sm-10 col-xs-10" >
+                    <ul id="ul1"class="clearfix">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="soapOpera.html">电视剧</a></li>
+                        <li><a href="setmeal.html">电影</a></li>
+                        <li><a href="example.html">动漫</a></li>
+                        <li id="wd"><a>文档<i class="glyphicon glyphicon-menu-right"></i></a></li>
+                        <li id="gy"><a>关于<i class="glyphicon glyphicon-menu-right"></i></a></li>
+                    </ul>
+                    <div id="wd1">
+                        <ul>
+                            <li id="fanhui1"><a>返回上一级</a></li>
+                            <li><a>建站资讯</a></li>
+                            <li><a>更新日志</a></li>
+                        </ul>
+                    </div>
+                    <div id="gy1" >
+                        <ul id="ul2">
+                            <li id="fanhui2"><a>返回上一级</a></li>
+                            <li id="gcxx"><a>团队信息<i class="glyphicon glyphicon-menu-right"></i></a></li>
+                            <li><a>联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div id="gc" >
+                        <ul >
+                            <li id="fanhui3"><a>返回上一级</a></li>
+                            <li><a>成员介绍</a></li>
+                            <li><a>服务条款</a></li>
+                            <li><a>法律声明</a></li>
+                            <li><a>可接受服务</a></li>
+                            <li><a>免责声明</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="bo-focus">
+       <!-- 轮播 -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- 指示符 -->
+   <div class="carousel-indicators">
+     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+     <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+   </div>
+   
+   <!-- 轮播图片 -->
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+       <a href="example.html"><img src="img\苍兰决.jpg" class="d-block" style="width:100%"></a>
+     </div>
+     <div class="carousel-item">
+       <img src="img\传家.jpg" class="d-block" style="width:100%">
+     </div>
+     <div class="carousel-item">
+       <img src="img\星汉灿烂.jpg" class="d-block" style="width:100%">
+     </div>
+   </div>
+   
+   <!-- 左右切换按钮 -->
+   <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon"></span>
+   </button>
+   <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+     <span class="carousel-control-next-icon"></span>
+   </button>
+ </div>
+    </div>
+    <div class="ch-classify">
+    <div class="ch-classify-inner">
+        <div class="ch-classify-part">
+             <h4 class="ch-classify-title">地区</h4>
+        <ul class="ch-classify-list">
+            <li class="ch-classify-li"><a href="" class="link-txt">内地</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">韩国</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">美国</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">日本</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">泰国</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">英国</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">香港地区</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">台湾地区</a></li>
+        </ul>
+    </div>
+        <div class="ch-classify-part">
+            <h4 class="ch-classify-title">类型</h4>
+        <ul class="ch-classify-list">
+            <li class="ch-classify-li">古装<a href="" class="link-txt"></a></li>
+            <li class="ch-classify-li">言情<a href="" class="link-txt"></a></li>
+            <li class="ch-classify-li">武侠<a href="" class="link-txt"></a></li>
+            <li class="ch-classify-li">偶像<a href="" class="link-txt"></a></li>
+            <li class="ch-classify-li">家庭<a href="" class="link-txt"></a></li>
+            <li class="ch-classify-li">青春<a href="" class="link-txt"></a></li>
+            <li class="ch-classify-li">都市<a href="" class="link-txt"></a></li>
+            <li class="ch-classify-li">喜剧<a href="" class="link-txt"></a></li>
+            <li class="ch-classify-li">战争<a href="" class="link-txt"></a></li>
+            <li class="ch-classify-li">军旅<a href="" class="link-txt"></a></li>
+            <li class="ch-classify-li">谍战<a href="" class="link-txt"></a></li>
+            <li class="ch-classify-li">悬疑<a href="" class="link-txt"></a></li>
+        </ul>
+        </div>
+        <div class="ch-classify-part">
+            <h4 class="ch-classify-title">年份</h4>
+        <ul class="ch-classify-list">
+            <li class="ch-classify-li"><a href="" class="link-txt">2022</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">2021</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">2020</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">2019</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">2018</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">2017</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">2016~2011</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">2010~2000</a></li>
+            <li class="ch-classify-li"><a href="" class="link-txt">90年代</a></li>
+        </ul>
+        </div>
+    </div>
+    </div>
+    <div class="tl-rank">
+        <div class="qy-mod-header">
+            <h2 class="qy-mod-title">
+                <a id="T-title" class="title-link">电视剧· 风云榜</a>
+                <div class="qy-mod-title-auto">
+                    <div class="qy-mod-nav-link" id="qy-mod-nav-link">
+                        <ul class="qy-mod-crumb">
+                            <li class="crumb-li">
+                                <div class="crumb-li" id="rank-li">
+                                    <a class="txt-line">热播榜</a>
+                                </div>
+                            </li>
+                            <li class="crumb-li">
+                                <div class="crumb-link" id="rank-li">
+                                    <a class="txt-line">飙升榜</a>
+                                </div>
+                            </li>
+                            <li class="crumb-li">
+                                <div class="crumb-link" id="rank-li">
+                                    <a class="txt-line">必看榜</a>
+                                </div>
+                            </li>
+                            <li class="crumb-li">
+                                <div class="crumb-link" id="rank-li">
+                                    <a class="txt-line">言情榜</a>
+                                </div>
+                            </li>
+                            <li class="crumb-li">
+                                <div class="crumb-link" id="rank-li">
+                                    <a class="txt-line">港剧榜</a>
+                                </div>
+                            </li>
+                            <li class="crumb-li">
+                                <div class="crumb-link" id="rank-li">
+                                    <a class="txt-line">年代榜</a>
+                                </div>
+                            </li>
+                            <li class="crumb-li">
+                                <div class="crumb-link" id="rank-li">
+                                    <a class="txt-line">搞笑榜</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </h2>
+        </div>
+        <div class="qy-mod-list1" id="list1">
+            <ul class="qy-mod-ul">
+                <li class="qy-mod-li">
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2873323704.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">请君</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >任嘉伦李沁千年寻爱</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2574861321.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">从前有座剑灵山</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >兰强夫妇双向养成</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2878776883.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">罚罪</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >大王揭晓内鬼暴露</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2674132194.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="example.html" class="link-txt">苍兰决</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >兰强夫妇双向养成</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2873316814.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">亲爱的生命</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >宋茜王晓晨护佑生命</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="qy-mod-list1" id="list2">
+            <ul class="qy-mod-ul">
+                <li class="qy-mod-li">
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2873323704.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">罚罪</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >常征黑化倒戈赵家</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img1.doubanio.com/view/photo/l/public/p2874883888.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">你安全吗？</a>
+                            </p>
+                            <p title="网络背后善恶难分" class="sub" >网络背后善恶难分</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2878776883.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">亲爱的生命</a>
+                            </p>
+                            <p title="宋茜王晓晨护佑生命" class="sub" >宋茜王晓晨护佑生命</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img1.doubanio.com/view/photo/l/public/p2878780338.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">简言的夏冬</a>
+                            </p>
+                            <p title="朱亚文万茜双A搭档" class="sub" >朱亚文万茜双A搭档</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://bkimg.cdn.bcebos.com/pic/4d086e061d950a7b02088e99198475d9f2d3572c636a?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5/format,f_auto" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">勇者无惧</a>
+                            </p>
+                            <p title="卧底缉毒 冰蓝行动" class="sub" >卧底缉毒 冰蓝行动</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="qy-mod-list1" id="list3">
+            <ul class="qy-mod-ul">
+                <li class="qy-mod-li">
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2873323704.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">赘婿</a>
+                            </p>
+                            <p title="郭麒麟嫁给宋轶" class="sub" >郭麒麟嫁给宋轶</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://i.hexuexiao.cn/up/61/57/03/57c88bb490a8dbeb8451a548a2035761.jpg" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">人世间</a>
+                            </p>
+                            <p title="三世同堂谱写人间烟火" class="sub" >三世同堂谱写人间烟火</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2878776883.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">罚罪</a>
+                            </p>
+                            <p title="大王揭晓内鬼暴露" class="sub" >大王揭晓内鬼暴露</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <a href="example.html"><img src="https://img9.doubanio.com/view/photo/l/public/p2674132194.webp" class="ly-img"/></a>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="example.html" class="link-txt">苍兰决</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >兰强夫妇双向养成</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2873316814.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">亲爱的生命</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >宋茜王晓晨护佑生命</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="qy-mod-list1" id="list4">
+            <ul class="qy-mod-ul">
+                <li class="qy-mod-li">
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2873323704.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">请君</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >任嘉伦李沁千年寻爱</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2674132194.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="example.html" class="link-txt">苍兰决</a>
+
+
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >兰强夫妇双向养成</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2873316814.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >28集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">亲爱的生命</a>
+                            </p>
+                            <p title="宋茜王晓晨护佑生命" class="sub" >宋茜王晓晨护佑生命</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img1.doubanio.com/view/photo/l/public/p2880435449.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >30集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">超时空罗曼史</a>
+                            </p>
+                            <p title="民国偶像的跨世之恋" class="sub" >民国偶像的跨世之恋</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img1.doubanio.com/view/photo/l/public/p2877321108.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >34集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">天才基本法</a>
+                            </p>
+                            <p title="高能结局反转升级" class="sub" >高能结局反转升级</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="qy-mod-list1" id="list5">
+            <ul class="qy-mod-ul">
+                <li class="qy-mod-li">
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2867863142.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >30集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">家族荣耀</a>
+                            </p>
+                            <p title="豪门复仇伦理爽剧" class="sub" >豪门复仇伦理爽剧</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2772520992.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >30集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">飞虎之壮志英雄</a>
+                            </p>
+                            <p title="飞虎天团热血回归" class="sub" >飞虎天团热血回归</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2867863276.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >30集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">铁拳英雄</a>
+                            </p>
+                            <p title="华人奋战唐人街" class="sub" >华人奋战唐人街</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2603578193.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >30集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">飞虎之雷霆极战</a>
+                            </p>
+                            <p title="飞虎出击霸气防控" class="sub" >飞虎出击霸气防控</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2516859805.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >30集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">飞虎之潜行极战</a>
+                            </p>
+                            <p title="飞虎天团热血来袭" class="sub" >飞虎天团热血来袭</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="qy-mod-list1" id="list6">
+            <ul class="qy-mod-ul">
+                <li class="qy-mod-li">
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2375175501.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >48集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">老九门</a>
+                            </p>
+                            <p title="热血收官九门同心" class="sub" >热血收官九门同心</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img3.doubanio.com/view/photo/l/public/p2647130790.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >43集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">叛逆者</a>
+                            </p>
+                            <p title="朱一龙童谣谍战风云" class="sub" >朱一龙童谣谍战风云</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2558743776.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">正阳门下</a>
+                            </p>
+                            <p title="破烂王的逆袭" class="sub" >破烂王的逆袭</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2855308875.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >44集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">父母爱情</a>
+                            </p>
+                            <p title="郭涛梅婷还原时代爱情" class="sub" >郭涛梅婷还原时代爱情</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img1.doubanio.com/view/photo/l/public/p2373067679.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">康熙王朝</a>
+                            </p>
+                            <p title="陈道明演绎大型历史剧" class="sub" >陈道明演绎大型历史剧</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="qy-mod-list1" id="list7">
+            <ul class="qy-mod-ul">
+                <li class="qy-mod-li">
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2880107351.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >81集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">武林外传</a>
+                            </p>
+                            <p title="同福客栈趣事多" class="sub" >同福客栈趣事多</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img1.doubanio.com/view/photo/l/public/p2873556577.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >16集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">开心合伙人</a>
+                            </p>
+                            <p title="开心麻花首部职场喜剧" class="sub" >开心麻花首部职场喜剧</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img9.doubanio.com/view/photo/l/public/p2576067296.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >16集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">如此可爱的我们</a>
+                            </p>
+                            <p title="又暖又甜的竹马青春" class="sub" >大王揭晓内鬼暴露</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img3.doubanio.com/view/photo/l/public/p2060443140.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >40集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">龙门镖局</a>
+                            </p>
+                            <p title="龙门镖局爆笑开张" class="sub" >龙门镖局爆笑开张</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img1.doubanio.com/view/photo/l/public/p2557505069.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">动物管理局</a>
+                            </p>
+                            <p title="陈赫王子文爆笑探案" class="sub" >陈赫王子文爆笑探案</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="nap"></div>
+    <div class="tl-layout">
+        <div >
+            <div class="qy-mod-header">
+                <h2 class="qy-mod-title">
+                    <a id="T-title" class="title-link">即将上线</a>
+                    <div class="qy-mod-title-auto">
+                        <div class="qy-mod-nav-link">
+                            <ul class="qy-mod-crumb">
+                                <li class="crumb-li">
+                                    <div class="crumb-li">
+                                        <a class="txt-line">更多新片></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </h2>
+            </div>
+        </div>
+        <div class="hidden-box">
+            <div class="line-top"></div>
+            <ul class="qy-mod-ul">
+                <li class="qy-mod-li1">
+                    <div class="time-wrapper">
+                        <p class="time-label">9.21上线</p>
+                        <i class="qy-common"></i>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2873262883.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" ></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">唐朝诡事录</a>
+                            </p>
+                            <div class="yuyue-wrap">
+                                <p class="sub" id="sub" >64.1万人预约</p>
+                                <span class="mp-yuyue-link">
+                                    <span class="mp-txt-yuyue">预约</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="qy-mod-li1">
+                    <div class="time-wrapper">
+                        <p class="time-label">即将上线</p>
+                        <i class="qy-common"></i>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2868236633.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" ></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">我的反派男友</a>
+                            </p>
+                            <div class="yuyue-wrap">
+                                <p class="sub" id="sub" >95.4万人预约</p>
+                                <span class="mp-yuyue-link">
+                                    <span class="mp-txt-yuyue">预约</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="qy-mod-li1">
+                    <div class="time-wrapper">
+                        <p class="time-label">即将上线</p>
+                        <i class="qy-common"></i>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2706355341.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" ></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">芳心荡漾</a>
+                            </p>
+                            <div class="yuyue-wrap">
+                                <p class="sub" id="sub" >16.6万人预约</p>
+                                <span class="mp-yuyue-link">
+                                    <span class="mp-txt-yuyue">预约</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="qy-mod-li1">
+                    <div class="time-wrapper">
+                        <p class="time-label">即将上线</p>
+                        <i class="qy-common"></i>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2873306611.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" ></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">摇滚狂花</a>
+                            </p>
+                            <div class="yuyue-wrap">
+                                <p class="sub" id="sub" >4.9万人预约</p>
+                                <span class="mp-yuyue-link">
+                                    <span class="mp-txt-yuyue">预约</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="qy-mod-li1">
+                    <div class="time-wrapper">
+                        <p class="time-label">即将上线</p>
+                        <i class="qy-common"></i>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img2.doubanio.com/view/photo/l/public/p2697773072.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" ></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">我的秘密室友</a>
+                            </p>
+                            <div class="yuyue-wrap">
+                                <p class="sub" id="sub" >56.6万人预约</p>
+                                <span class="mp-yuyue-link">
+                                    <span class="mp-txt-yuyue">预约</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+            </ul>
+
+        </div>
+        
+    
+    </div>
+    <div class="tl-layout">
+        <div >
+            <div class="qy-mod-header">
+                <h2 class="qy-mod-title">
+                    <a id="T-title" class="title-link">同步热播</a>
+                    <div class="qy-mod-title-auto">
+                        <div class="qy-mod-nav-link">
+                            <ul class="qy-mod-crumb">
+                                <li class="crumb-li">
+                                    <div class="crumb-li">
+                                        <a class="txt-line">节目单</a>
+                                    </div>
+                                </li>
+                                <li class="crumb-li">
+                                    <div class="crumb-link">
+                                        <i class="slash">|</i>
+                                        <a class="txt-line">更多></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </h2>
+            </div>
+        </div>
+        <div class="qy-mod-list1">
+            <ul class="qy-mod-ul">
+                <li class="qy-mod-li">
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://img1.doubanio.com/view/photo/l/public/p2614016069.webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">二十不惑</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >原班人马青春重聚</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.FMhqLWMVal0N1jZNrjaTNwHaKY?w=203&h=284&c=7&r=0&o=5&dpr=1.5&pid=1.7" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">盗墓笔记</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >前所未见的底下惊奇世界</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://pic3.zhimg.com/v2-5e02c026b31937b1eebfd94cbac5afee_b.jpg" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">如懿传</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >一代帝王夫妻的婚姻围城</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://i.hexuexiao.cn/up/25/34/cc/414e982cb4311df5cdd1d50f01cc3425.jpg" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">玫瑰之战</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >胜利是生活所能给与我们的最好的勋章</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://i.hexuexiao.cn/up/93/12/a3/df43f78d6556973bf25d1aa766a31293.jpg" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">鱿鱼游戏</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >“大逃杀”密室</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="qy-mod-list2">
+            <ul class="qy-mod-ul">
+                <li class="qy-mod-li">
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://c-ssl.dtstatic.com/uploads/item/201910/21/20191021200627_lrUyx.thumb.400_0.jpeg_webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">天盛长歌</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >宁奕凤只微隐居山林</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://c-ssl.dtstatic.com/uploads/item/201910/21/20191021190610_HXf2h.thumb.400_0.jpeg_webp" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">白夜追凶</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >中国首部硬汉派悬疑推理剧</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://i.hexuexiao.cn/up/61/57/03/57c88bb490a8dbeb8451a548a2035761.jpg" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">人世间</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >五十年中国百姓生活史</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://i.hexuexiao.cn/up/b3/59/94/fd0f7d61612ab0761ddea7acf19459b3.jpg" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">流光之城</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >世界如棋 真爱至上</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://i.hexuexiao.cn/up/1b/05/dc/85fdc5444fe21d1d1bf87ed9ebdc051b.jpg" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">暗恋橘生淮南</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >这场暗恋的时间太漫长</p>
+                        </div>
+                    </div>
+                    <div class="qy-mod-img">
+                        <div class="qy-mod-link-wrap">
+                            <a class="qy-mod-link" href="">
+                                <img src="https://i.hexuexiao.cn/up/1b/05/dc/85fdc5444fe21d1d1bf87ed9ebdc051b.jpg" class="ly-img"/>
+                                <div class="icon-br-icon-b">
+                                    <span class="qy-mod-label" >36集全</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="title-wrap">
+                            <p class="main">
+                                <a href="" class="link-txt">暗恋橘生淮南</a>
+                            </p>
+                            <p title="兰强夫妇双向养成" class="sub" >这场暗恋的时间太漫长</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="nap"></div>
+   
+    <div class="footer">
+        <div class="f1">
+            <div class="container">
+                <div class="ff1 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="ff1-1">YOLO · 做你想做，看你想看</div>
+                    <div class="ff1-2">此视频网站目前仅用作学习</div>
+                    <div class="ff1-3">
+                        <p>联系Q Q：1586985091</p>
+                        <p>联系电话：15153398750</p>
+                    </div>
+                </div>
+                <div class="ff2 col-lg-8 col-md-8">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="ff2-1"><p>团队信息</p></div>
+                        <p><a href="#">成员介绍</a></p>
+                        <p><a href="#">服务条款</a></p>
+                        <p><a href="#">法律声明</a></p>
+                        <p><a href="#">可接受服务</a></p>
+                        <p><a href="#">免责声明</a></p>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <div class="ff2-1"><p>技术支持</p></div>
+                        <p><a href="#">联系客服</a></p>
+                        <p><a href="#">建站资讯</a></p>
+                        <p><a href="#">更新日志</a></p>
+                        <p><a href="#">团队博客</a></p>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="ff2-1"><p>快速入口</p></div>
+                        <p><a href="#">首页</a></p>
+                        <p><a href="#">电视剧</a></p>
+                        <p><a href="#">电影</a></p>
+                        <p><a href="#">动漫</a></p>
+                        <p><a href="#">登录</a></p>
+                    </div>
+                    <div class="col-lg-4 col-md-4" style="padding-right: 0;">
+                        <div class="ff2-1"><p>官方微信号</p></div>
+                        <img src="img/erweima.png" />
+                    </div>
+                </div>
+            </div>
+                            
+        </div>
+        <div class="f2">
+            <div class="container">
+                <hr style="width: 100%;border: none;height: 1px;background-color: #E2E2E2;"/>
+                <p>在这里，你可以看到你想看的所有视频，大胆去做，大胆去想，You Only Live Once！</p>
+                <hr style="width: 100%;border: none;height: 1px;background-color: #E2E2E2;"/>
+                <p>版权所有 2022 yolo团队 版本: V1.2</p>
+            </div>
+        </div>
+    </div>
+    
+    <ul class="cbl" >
+        <li><a href="#">
+            <div class="icon d1"><i class="i1"></i><span class="title">1586985091</span></div>
+        </a></li>
+        <i class="clearfix"></i>
+        <li><a href="#">
+            <div class="icon d2"><i class="i2"></i><span class="title">15153398750</span></div>
+        </a></li>
+        <i class="clearfix"></i>
+        <li><a  href="#">
+            <div class="icon"><i class="i3"></i><span class="title">关于我们</span></div>
+        </a></li>
+        <i class="clearfix"></i>
+        <li ><a  href="#">
+            <div class="icon d4" data-toggle="tooltip" data-placement = "left" title="<img src='img/erweima.png'><br/> 关注微信 " data-html="true"><i class="i4"></i></div>
+        </a></li>
+    </ul>
+    </div>
+</body>
+</html>
